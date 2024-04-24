@@ -27,11 +27,9 @@ body:
       label: Checks
       description: Please check the applicable options.
       options:
-        - label: I have checked for existing issues.
-          required: true
-        - label: This report is about the Openmetadata Helm Chart.
+        - label: I have checked for existing issues in Github Issues.
           required: false
-        - label: This report is about the Openmetadata Dependencies Helm Chart.
+        - label: I have checked for existing issues in Slack.
           required: false
   - type: input
     id: affected-module
