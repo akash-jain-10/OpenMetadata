@@ -6,7 +6,8 @@ body:
   - type: dropdown
     id: community-slack
     attributes:
-      label: Is this bug reported and discussed over [Community Slack](https://open-metadata.org/community) ?
+      label: Is this bug reported and discussed over Community Slack ?
+      description: https://slack.open-metadata.org
       multiple: false
       options:
         - "Yes"
