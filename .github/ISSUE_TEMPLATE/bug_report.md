@@ -1,6 +1,8 @@
-name: 🐞 Bug Report
-description: Tell us what went wrong and help us improve.
-labels: [ "kind/bug" ]
+---
+name: Bug Report
+description: "Tell us what went wrong and help us improve."
+labels: [ "bug" ]
+title: "[Bug]: "
 body:
   - type: dropdown
     id: community-slack
