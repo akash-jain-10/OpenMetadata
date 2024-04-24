@@ -37,7 +37,6 @@ body:
     attributes:
       label: Affected Module
       description: "Does it impact the UI, backend or Ingestion Framework or Other?"
-      placeholder: ""
     validations:
       required: true
   - type: textarea
@@ -45,7 +44,6 @@ body:
     attributes:
       label: Describe the Bug
       description: A clear and concise description of what the bug is.
-      placeholder: ""
     validations:
       required: true
   - type: textarea
@@ -53,7 +51,6 @@ body:
     attributes:
       label: How to Reproduce
       description: Screenshots or steps to reproduce
-      placeholder: ""
     validations:
       required: true
   - type: textarea
@@ -61,7 +58,6 @@ body:
     attributes:
       label: Expected Behavior
       description: A clear and concise description of what you expected to happen.
-      placeholder: ""
     validations:
       required: true
   - type: input
@@ -69,7 +65,6 @@ body:
     attributes:
       label: OpenMetadata Version
       description: "Which OpenMetadata Version can this Bug be reproduced ?"
-      placeholder: ""
   - type: textarea
     id: additional-context
     attributes:
